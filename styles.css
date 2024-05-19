@@ -1,0 +1,65 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+p {
+  color: #666;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  cursor: pointer;
+  background-color: #5cb85c;
+  color: white;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+#login-container, #video-platform {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#login-form h2, #video-platform h1 {
+  text-align: center;
+}
+
+.video {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  padding: 10px;
+  background: white;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 640px) {
+  iframe {
+      height: 360px;
+  }
+}
